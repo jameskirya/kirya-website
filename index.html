@@ -1,0 +1,111 @@
+<!doctype html5>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="view port" content="width=device-width, initial-scale=1.0">
+<title>my website</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="header"> 
+<nav class="navbars">
+<a href="">home</a>
+<a href="">about</a>
+<a href="">contact</a>
+<a href="">services</a>
+<a href="">products</a>
+</nav>
+<div class="btn">
+<div>
+<button class="serch" id="serch" onclick="myfunc()">search</button>
+</div>
+<div>
+<button class="search" id="cart-items">cart items</button>
+</div>
+<div>
+<button class="search" id="menue">menue</button>
+</div>
+</div>
+<div class="form">
+<form>
+<input id="search" type="search" name="search" placeholder="search here.....">
+<button>Go</button>
+</form>
+</div>
+</header>
+
+<section class="home" id="home">
+<div class="hero">
+<h3>egeldge in heavenly sweet delights</h3>
+<p>this is what i also enjoy my meals from in all ways</p>
+<a href="" class="betn">get yours now</a>
+</div>
+</section>
+
+<section class="section cakes" id="cakes">
+<h3 class="title">our<span>cakes</span></h3>
+<div class="wrapper">
+<div class="cake-cards">
+<img src="1.jpg"> 
+<h3>cake one</h3>
+<div class="price">$22.99<br><span>$55.99</span></div>
+<a href="" class="betn">add to cart</a>
+</div>
+
+<div class="cake-cards">
+<img src="29.jpg"> 
+<h3>cake one</h3>
+<div class="price">$22.99<br><span>$15.99</span></div>
+<a href="" class="betn">add to cart</a>
+</div>
+
+<div class="cake-cards">
+<img src="27.jpg"> 
+<h3>cake one</h3>
+<div class="price">$22.99<br><span>$34.99</span></div>
+<a href="" class="betn">add to cart</a>
+</div>
+
+<div class="cake-cards">
+<img src="22.jpg"> 
+<h3>cake one</h3>
+<div class="price">$22.99<br><span>$88.99</span></div>
+<a href="" class="betn">add to cart</a>
+</div>
+
+<div class="cake-cards">
+<img src="25.jpg"> 
+<h3>cake one</h3>
+<div class="price">$22.99<br><span>$35.99</span></div>
+<a href="" class="betn">add to cart</a>
+</div>
+
+<div class="cake-cards">
+<img src="23.jpg"> 
+<h3>cake one</h3>
+<div class="price">$22.99<br><span>$30.99</span></div>
+<a href="" class="betn">add to cart</a>
+</div>
+</div>
+
+</section>
+<script>
+function myfunc(){
+let search = document.querySelector("#serch");
+let form = document.querySelector(".form");
+search.addEventListener("click",() => {
+form.classList("active")});
+}
+</script>
+</body>
+
+
+
+
+
+
+
+
+
+
+</html>
